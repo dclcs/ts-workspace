@@ -118,6 +118,7 @@ console.log(sentence)
     // TypeScript 并不关心 Cat 和 Animal 之间定义时是什么关系，而只会看它们最终的结构有什么关系——所以它与 Cat extends Animal 是等价的：
     let animal: Animal2 = tom4;
   ```
+
 - 类型断言 vs 类型转换
   - 类型断言只会影响 TypeScript 编译时的类型，类型断言语句在编译结果中会被删除
   - 若要进行类型转换，需要直接调用类型转换的方法
@@ -130,6 +131,5 @@ console.log(sentence)
 当使用第三方库时，我们需要引用它的声明文件，才能获得对应的代码补全、接口提示等功能。
 
 ![](../images/2023-05-22-22-26-43.png)
-
 
 ## 内置对象
